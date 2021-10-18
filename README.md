@@ -1,1 +1,33 @@
 # tz_pytorch
+
+---
+- **torch**
+ - nn
+   - functional
+   - Conv2d
+   - Linear
+   - ReLU
+   - MaxPool2d
+   - Flatten
+   - Dropout
+ - utils
+   - data
+     - random_split
+     - dataloader
+       - DataLoader
+  - device
+  - cuda
+  - stack
+---
+- **torchvision**
+ - datasets
+   - ImageFolder
+ - transforms
+   - Compose
+   - Resize
+   - ToTensor
+   - Normalize
+ - models
+ - utils
+   - make_grid
+---
